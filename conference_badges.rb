@@ -11,7 +11,9 @@ def batch_badge_creator(names)
   badge_list
 end
 
-def assign_rooms
+def assign_rooms(speakers)
+  rooms = []
+  badge_list = batch_badge_creator(speakers)
 
 end
 
