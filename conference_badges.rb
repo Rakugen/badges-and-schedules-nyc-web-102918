@@ -23,6 +23,7 @@ end
 def printer(list)
   badge_list = batch_badge_creator(list)
   room_list = assign_rooms(list)
+
   badge_list.each_index do |x|
     puts badge_list[x]
     puts room_list[x]
