@@ -15,7 +15,7 @@ def assign_rooms(speakers)
   rooms = []
 #  badge_list = batch_badge_creator(speakers)
   for x in 0...speakers.size do
-    rooms.push("Hello, #{speakers[x]}! You'll be assigned to room #{x}!")
+    rooms.push("Hello, #{speakers[x]}! You'll be assigned to room #{x+1}!")
   end
   rooms
 end
